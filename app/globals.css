@@ -66,7 +66,7 @@ html {
   }
 }
 
-/* @layer base {
+ @layer base {
   * {
     @apply border-border;
   }
@@ -74,31 +74,16 @@ html {
     @apply bg-background text-foreground;
   }
 }
-@layer utilities {
-  .border-border {
-    @apply border border-gray-300;
-  }
-}
-@layer utilities {
-  .bg-background {
-    @apply border border-gray-300;
-  }
-  
-}
-@layer utilities {
-  .text-foreground {
-    @apply border border-gray-300;
-  }
-} */
 
-/* @layer utilities {
+
+@layer utilities {
   .gradient {
     @apply bg-gradient-to-br from-blue-600 to-purple-600;
   }
   .gradient-title {
     @apply gradient font-extrabold tracking-tighter pr-2 pb-2 text-transparent bg-clip-text;
   }
-} */
+}
 
 .hero-image-wrapper {
   perspective: 1000px;
